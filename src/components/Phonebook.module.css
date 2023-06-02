@@ -1,0 +1,61 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.Input {
+  border-radius: 24px;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.Input:focus {
+  box-shadow: lightgreen 0px 0px 0px 3px;
+}
+
+.AddBtn {
+  border-radius: 24px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(87, 80, 80);
+  background-color: lightblue;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+
+.AddBtn:hover,
+.AddBtn:focus {
+  background-color: lightgreen;
+  color: white;
+}
+.DeleteBtn {
+  border-radius: 24px;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.DeleteBtn:hover,
+.DeleteBtn:focus {
+  background-color: lightgreen;
+  color: rgb(88, 86, 86);
+}
+.ContactsItem {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.ContactsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ContactsWrapper label {
+  font-size: 26px;
+}
+.ContactsWrapper .Input {
+  max-width: 200px;
+}
